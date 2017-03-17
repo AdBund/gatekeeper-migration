@@ -1,0 +1,23 @@
+default:
+  adapter: mysql2
+  encoding: utf8
+  username: monty
+  password: monty
+  host: 127.0.0.1
+  database: gatekeeper
+
+staging:
+  adapter: mysql2
+  encoding: utf8
+  username: root
+  password: R%LKsIJF412
+  host: dev02.cmjwzbzhppgn.us-west-1.rds.amazonaws.com
+  database: gatekeeper
+
+production:
+  adapter: mysql2
+  encoding: utf8
+  username: root
+  password: DFICi5#sdf
+  host: trackingdb.col8oozqk3ay.us-east-2.rds.amazonaws.com
+  database: gatekeeper
